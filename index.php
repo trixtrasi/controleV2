@@ -10,21 +10,21 @@ require_once "connect.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Controle de Acesso de Visitantes</title>
     <!--FAV ICONS-->
-    <link type="image/png" rel="icon" href="http://localhost/controlev2/public/img/png/password.png">
+    <link type="image/png" rel="icon" href="public/img/png/password.png">
     <!--BOOTSTRAP-->
-    <link rel="stylesheet" href="http://localhost/controlev2/plugins/bootstrap-5.0.2-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="http://localhost/controlev2/plugins/bootstrap-5.0.2-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="plugins/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="plugins/bootstrap-5.0.2-dist/css/bootstrap-grid.css">
     <!--CSS | COMPLEMENTAR-->
-    <link rel="stylesheet" href="http://localhost/controlev2/public/css/complements.css">
+    <link rel="stylesheet" href="public/css/complements.css">
     <!--CSS | DATATABLES-->
-    <link rel="stylesheet" href="http://localhost/controlev2/plugins/dataTables/css/dataTables.dataTables.min.css">
+    <link rel="stylesheet" href="plugins/dataTables/css/dataTables.dataTables.min.css">
 
     <!--BOOTSTRAP-->
-    <script src="http://localhost/controlev2/plugins/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script src="plugins/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
     <!--JQUERY-->
-    <script src="http://localhost/controlev2/plugins/jquery/jquery.js"></script>
+    <script src="plugins/jquery/jquery.js"></script>
     <!-- DATATABLES - JS -->
-    <script src="http://localhost/controlev2/plugins/dataTables/js/dataTables.min.js"></script>
+    <script src="plugins/dataTables/js/dataTables.min.js"></script>
 </head>
 
 <body>
@@ -102,14 +102,14 @@ require_once "connect.php";
         <!-- Copyright -->
     </footer>
     <!-- CONTROLE DO NAVBAR -->
-    <script src="http://localhost/controlev2/public/js/navbar.js"></script>
+    <script src="public/js/navbar.js"></script>
     <!-- AJAX -->
-    <script src="http://localhost/controlev2/public/js/ajax.js"></script>
+    <script src="public/js/ajax.js"></script>
     <!--JQUERY MASKS-->
-    <script src="http://localhost/controlev2/public/js/jquery.mask.js"></script>
+    <script src="public/js/jquery.mask.js"></script>
     <!-- CONTROLE DE INATIVADE DO USUÁRIO -->
-    <script src="http://localhost/controlev2/public/js/inatividade.js"></script>
+    <script src="public/js/inatividade.js"></script>
     <!-- CONFIRMAR A AÇÃO DO USUÁRIO -->
-    <script src="http://localhost/controlev2/public/js/confirmSubmit.js"></script>
+    <script src="public/js/confirmSubmit.js"></script>
 </body>
 </html>
