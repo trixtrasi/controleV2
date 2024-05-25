@@ -50,7 +50,7 @@ $password; // Senha do usuário do MySQL (O padrão é não ter senha)
 $dbname; // Nome do banco de dados onde a estrutura foi importada (no caso, controleV2)
 ```
   4. Certifique-se de que o servidor web está configurado corretamente para executar arquivos PHP e tem acesso ao banco de dados MySQL.
-
+  5. Se quiser o logo da sua empresa no topo da barra de navegação insira o arquivo tipo png dentro da pasta `public/img/png/` com o nome `logo.png`
 ## Uso
   1. Abra o navegador e acesse a URL do seu servidor onde o sistema está hospedado.
   2. Faça login com o usuário administrador padrão (login: `4815162342`, senha: `123456`).
