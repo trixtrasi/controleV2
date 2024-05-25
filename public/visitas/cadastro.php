@@ -91,9 +91,8 @@ if (mysqli_num_rows($query_abandonado) > 0) {
         <!--MOTIVO / PM RESPONSÁVEL PELO VISITANTE-->
         <div class="row my-4 pt-4 border-top">
             <div class="form-group col-md-12">
-                <label for="pm_acompanhate">Policial Responsável pelo visitante:</label>
-                <input list="pm_guia" id="pm_responsavel" name="pm_acompanhate" type="text" class="form-control" placeholder="PM que guiará o visitante" value="">
-
+                <label for="pm_acompanhate">Responsável pelo visitante:</label>
+                <input id="pm_responsavel" name="pm_acompanhate" type="text" class="form-control" placeholder="Pessoa que guiará o visitante" value="">
             </div>
             <div class="form-group col-md-12">
                 <label for="visitante_motivo">Motivo da Visita:</label>

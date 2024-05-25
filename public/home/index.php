@@ -41,7 +41,7 @@
                             </div>
                             <div class="col">
                                 <label for="modalDataFim">Data Fim:</label>
-                                <input id="modalDataFim" type="date" class="form-control" name="eventos__data_fim">
+                                <input id="modalDataFim" type="date" class="form-control" name="eventos__data_fim" min="<?php echo date("Y-m-d"); ?>">
                             </div>
                         </div>
                         <div class="row">
