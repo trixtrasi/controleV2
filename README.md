@@ -30,6 +30,11 @@ A aplicacao conta com as seguintes funcionalidades:
 ### Frontend:
   + Bootstrap 5.0.2: Framework de código aberto para desenvolvimento de interfaces web responsivas e estilização.
   + jQuery: Biblioteca JavaScript para simplificar a manipulação do HTML, eventos, animações e interações AJAX.
+  + Tecnologias Utilizadas
+Frontend:
+- Bootstrap 5.0.2: Framework de código aberto para desenvolvimento de interfaces web responsivas e estilização.
+- jQuery: Biblioteca JavaScript para simplificar a manipulação do HTML, eventos, animações e interações AJAX.
+- DataTables com serverside processing: Utilizado para a exibição e manipulação de grandes conjuntos de dados de forma eficiente no lado do cliente, com processamento realizado no servidor. Dito isso, o processamento pelo servidor é extremamente overkill e desnecessário. A quantidade de daros processados por essa aplicacao é pequena e nao necessita dessa tecnologia, porém eu quis. Fim.
 ### Backend:
   + PHP: Linguagem de programação amplamente utilizada para o desenvolvimento de aplicações web do lado do servidor.
   + MySQL: Sistema de gerenciamento de banco de dados relacional de código aberto.
