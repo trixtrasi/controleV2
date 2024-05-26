@@ -1,23 +1,27 @@
 # controleV2
-  Sistema de controle e registro dos visitantes da sua empresa!
+  Segunda versão dos sistema de controle e gestão de visitas!
 
 ## Visão Geral
-  Este projeto é uma aplicação web desenvolvida para manter controle e registro das pessoas que visitaram sua empresa. O sistema possibilita cadastra, excluír e editar os visitantes e possuí um cadastro de tarefas diárias. Além de gestão completa de usuários.
+  Este projeto é uma aplicação web desenvolvida para manter controle e registro dos visistantes. O sistema possibilita cadastrar, excluír e editar as visitas e possuí um cadastro de tarefas diárias. Além de gestão completa de usuários.
 
 ## Funcionalidades Principais
-
+A aplicacao conta com as seguintes funcionalidades:
+1. visitantes
+2. usuarios
+3. tarefas
+   
 ### Visitantes:
   - Cadastro de visitantes: Todos os usuários podem cadastrar novos visitantes no sistema, incluindo informações básicas como nome, RG, motivo da visita, foto, veículo, etc.
   - Encerrar visita: Quando um visitante é cadastrado, ele fica com status "1" enquanto estiver no local. Ao encerrar a visita, o status é alterado para "0".
   - Exclusão de visitantes: Usuários com privilégio de administrador podem "excluir" visitas já encerradas. As visitas permanecem no banco de dados, mas seu status é alterado para '-1'.
 ### Usuários:
-  - Cadastro de usuários: Administradores (nível 5) podem adicionar novos usuários com informações básicas, como nome de usuário, login e senha. O nível padrão de novos usuários cadastrados é 1, usuário regular.
+  - Cadastro de usuários: Administradores `nível 5` podem adicionar novos usuários com informações básicas, como nome de usuário, login e senha. O nível padrão de novos usuários cadastrados é 1, usuário regular.
   - Edição de usuários: Administradores têm permissão para editar informações de outros usuários. Os usuários regulares podem alterar seus dados pessoais e senha.
   - Exclusão de usuários: Os usuários removidos inicialmente são desativados e podem ser expurgados posteriormente. Seus dados permanecem no banco de dados, mas seu status é alterado e seu login é cancelado.
-### Senha Padrão:
-  - Senha padrão ao resetar: Ao resetar a senha de um usuário, a nova senha será automaticamente definida como 123456.
-### Usuário Padrão:
-  - Usuário administrador padrão: O sistema já possui um usuário administrador cadastrado. No primeiro login, utilize o login 4815162342 e a senha padrão 123456.
+#### Senha Padrão:
+  - Senha padrão ao resetar: Ao resetar a senha de um usuário, a nova senha será automaticamente definida como `123456`.
+#### Usuário Padrão:
+  - Usuário administrador padrão: O sistema já possui um usuário administrador cadastrado. No primeiro login, utilize o login `4815162342` e a senha padrão `123456`.
 ### Tarefas:
   - Cadastro de tarefas: Na tela inicial, uma tabela exibe as tarefas para o dia. As tarefas podem ser criadas com um período de validade e permanecerão visíveis até o término desse período ou até serem excluídas por um usuário. As tarefas são visíveis para todos os usuários.
   - Exclusão de tarefas: Todos os usuários têm permissão para excluir tarefas. Assim como as outras funcionalidades, ao excluir uma tarefa, seu status é alterado para "0" e o registro permanece no banco de dados.
@@ -35,13 +39,13 @@ atualizadas dinamicamente através de requisições AJAX, proporcionando uma exp
 para o usuário.
 
 ## Pré-requisitos
-  + Servidor web com suporte a PHP (ex.: Apache, Nginx, MariaDB, Mysql)
+  + Servidor web com suporte a PHP (ex.: Apache, MariaDB)
   + MySQL instalado e configurado
   + Navegador atualizado (ex.: Chrome, Firefox)
 
 ## Instalação
   1. Clone ou baixe os arquivos do sistema para o diretório desejado em seu servidor web.
-  2. Importe o arquivo database/controleV2.sql para o seu banco de dados MySQL. Este arquivo contém a estrutura do banco de dados necessária para o funcionamento do sistema.
+  2. Importe o arquivo `database/controleV2.sql` para o seu banco de dados MySQL. Este arquivo contém a estrutura do banco de dados necessária para o funcionamento do sistema.
   3. No arquivo `connect.php` na raiz do projeto, altere as variáveis de conexão para corresponder às configurações do seu   ambiente:
 ```PHP
 $servername; // Endereço do servidor MySQL (geralmente "localhost")
