@@ -39,7 +39,7 @@ require_once "connect.php";
                 <!--LINK PARA EXPORTAR EXCEL-->
                 <li class="nav-item">
                     <a class="nav-link">
-                        <img class="d-inlne-block align-top" height="30" src="public/img/png/logo.png" alt="icon da empressa">
+                        <img class="d-inlne-block align-top" height="30" src="public/img/png/logo-darpa.png" alt="icon da empressa">
                     </a>
                 </li>
                 <li class="nav-item">
