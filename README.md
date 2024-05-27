@@ -12,30 +12,30 @@ A aplicacao conta com as seguintes funcionalidades:
 3. tarefas
    
 ### Visitantes:
-  - Cadastro de visitantes: Todos os usuários podem cadastrar novos visitantes no sistema, incluindo informações básicas como nome, RG, motivo da visita, foto, veículo, etc.
-  - Encerrar visita: Quando um visitante é cadastrado, ele fica com status "1" enquanto estiver no local. Ao encerrar a visita, o status é alterado para "0".
-  - Exclusão de visitantes: Usuários com privilégio de administrador podem "excluir" visitas já encerradas. As visitas permanecem no banco de dados, mas seu status é alterado para '-1'.
+  + Cadastro de visitantes: Todos os usuários podem cadastrar novos visitantes no sistema, incluindo informações básicas como nome, RG, motivo da visita, foto, veículo, etc.
+  + Encerrar visita: Quando um visitante é cadastrado, ele fica com status "1" enquanto estiver no local. Ao encerrar a visita, o status é alterado para "0".
+  + Exclusão de visitantes: Usuários com privilégio de administrador podem "excluir" visitas já encerradas. As visitas permanecem no banco de dados, mas seu status é alterado para '-1'.
 ### Usuários:
-  - Cadastro de usuários: Administradores `nível 5` podem adicionar novos usuários com informações básicas, como nome de usuário, login e senha. O nível padrão de novos usuários cadastrados é 1, usuário regular.
-  - Edição de usuários: Administradores têm permissão para editar informações de outros usuários. Os usuários regulares podem alterar seus dados pessoais e senha.
-  - Exclusão de usuários: Os usuários removidos inicialmente são desativados e podem ser expurgados posteriormente. Seus dados permanecem no banco de dados, mas seu status é alterado e seu login é cancelado.
+  + Cadastro de usuários: Administradores `nível 5` podem adicionar novos usuários com informações básicas, como nome de usuário, login e senha. O nível padrão de novos usuários cadastrados é 1, usuário regular.
+  + Edição de usuários: Administradores têm permissão para editar informações de outros usuários. Os usuários regulares podem alterar seus dados pessoais e senha.
+  + Exclusão de usuários: Os usuários removidos inicialmente são desativados e podem ser expurgados posteriormente. Seus dados permanecem no banco de dados, mas seu status é alterado e seu login é cancelado.
 #### Senha Padrão:
-  - Senha padrão ao resetar: Ao resetar a senha de um usuário, a nova senha será automaticamente definida como `123456`.
+  + Senha padrão ao resetar: Ao resetar a senha de um usuário, a nova senha será automaticamente definida como `123456`.
 #### Usuário Padrão:
-  - Usuário administrador padrão: O sistema já possui um usuário administrador cadastrado. No primeiro login, utilize o login `4815162342` e a senha padrão `123456`.
+  + Usuário administrador padrão: O sistema já possui um usuário administrador cadastrado. No primeiro login, utilize o login `4815162342` e a senha padrão `123456`.
 ### Tarefas:
-  - Cadastro de tarefas: Na tela inicial, uma tabela exibe as tarefas para o dia. As tarefas podem ser criadas com um período de validade e permanecerão visíveis até o término desse período ou até serem excluídas por um usuário. As tarefas são visíveis para todos os usuários.
-  - Exclusão de tarefas: Todos os usuários têm permissão para excluir tarefas. Assim como as outras funcionalidades, ao excluir uma tarefa, seu status é alterado para "0" e o registro permanece no banco de dados.
+  + Cadastro de tarefas: Na tela inicial, uma tabela exibe as tarefas para o dia. As tarefas podem ser criadas com um período de validade e permanecerão visíveis até o término desse período ou até serem excluídas por um usuário. As tarefas são visíveis para todos os usuários.
+  + Exclusão de tarefas: Todos os usuários têm permissão para excluir tarefas. Assim como as outras funcionalidades, ao excluir uma tarefa, seu status é alterado para "0" e o registro permanece no banco de dados.
 
 ## Tecnologias Utilizadas
 ### Frontend:
   + Bootstrap 5.0.2: Framework de código aberto para desenvolvimento de interfaces web responsivas e estilização.
   + jQuery: Biblioteca JavaScript para simplificar a manipulação do HTML, eventos, animações e interações AJAX.
   + Tecnologias Utilizadas
-Frontend:
-- Bootstrap 5.0.2: Framework de código aberto para desenvolvimento de interfaces web responsivas e estilização.
-- jQuery: Biblioteca JavaScript para simplificar a manipulação do HTML, eventos, animações e interações AJAX.
-- DataTables com serverside processing: Utilizado para a exibição e manipulação de grandes conjuntos de dados de forma eficiente no lado do cliente, com processamento realizado no servidor. Dito isso, o processamento pelo servidor é extremamente overkill e desnecessário. A quantidade de daros processados por essa aplicacao é pequena e nao necessita dessa tecnologia, porém eu quis. Fim.
+### Frontend:
+  + Bootstrap 5.0.2: Framework de código aberto para desenvolvimento de interfaces web responsivas e estilização.
+  + jQuery: Biblioteca JavaScript para simplificar a manipulação do HTML, eventos, animações e interações AJAX.
+  + DataTables com serverside processing: Utilizado para a exibição e manipulação de grandes conjuntos de dados de forma eficiente no lado do cliente, com processamento realizado no servidor. Dito isso, o processamento pelo servidor é extremamente overkill e desnecessário. A quantidade de daros processados por essa aplicacao é pequena e nao necessita dessa tecnologia, porém eu quis. Fim.
 ### Backend:
   + PHP: Linguagem de programação amplamente utilizada para o desenvolvimento de aplicações web do lado do servidor.
   + MySQL: Sistema de gerenciamento de banco de dados relacional de código aberto.
