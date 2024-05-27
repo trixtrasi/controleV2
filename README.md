@@ -1,5 +1,6 @@
 # controleV2
   Segunda versão do sistema de controle e gestão de visitas!
+  ![Imagem da página de home do sistema](public/img/png/main.png)
 
 ## Visão Geral
   Este projeto é uma aplicação web desenvolvida para manter o controle e registro dos visistantes. O sistema possibilita cadastrar, excluír e editar as visitas e possuí um cadastro de tarefas diárias. Além de gestão completa de usuários.
