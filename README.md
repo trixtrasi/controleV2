@@ -3,7 +3,7 @@
   ![Imagem da página de home do sistema](public/img/png/main.png)
 
 ## Visão Geral
-  Este projeto é uma aplicação web desenvolvida para manter o controle e registro dos visistantes. O sistema possibilita cadastrar, excluír e editar as visitas e possuí um cadastro de tarefas diárias. Além de gestão completa de usuários.
+  Este projeto é uma aplicação web desenvolvida para manter o controle e registro dos visistantes. O sistema possibilita cadastrar, excluír as visitas e um cadastro de tarefas diárias. Além de gestão completa de usuários.
 
 ## Funcionalidades Principais
 A aplicacao conta com as seguintes funcionalidades:
@@ -31,16 +31,12 @@ A aplicacao conta com as seguintes funcionalidades:
 ### Frontend:
   + Bootstrap 5.0.2: Framework de código aberto para desenvolvimento de interfaces web responsivas e estilização.
   + jQuery: Biblioteca JavaScript para simplificar a manipulação do HTML, eventos, animações e interações AJAX.
-  + Tecnologias Utilizadas
-### Frontend:
-  + Bootstrap 5.0.2: Framework de código aberto para desenvolvimento de interfaces web responsivas e estilização.
-  + jQuery: Biblioteca JavaScript para simplificar a manipulação do HTML, eventos, animações e interações AJAX.
   + DataTables com serverside processing: Utilizado para a exibição e manipulação de grandes conjuntos de dados de forma eficiente no lado do cliente, com processamento realizado no servidor. Dito isso, o processamento pelo servidor é extremamente overkill e desnecessário. A quantidade de daros processados por essa aplicacao é pequena e nao necessita dessa tecnologia, porém eu quis. Fim.
 ### Backend:
   + PHP: Linguagem de programação amplamente utilizada para o desenvolvimento de aplicações web do lado do servidor.
   + MySQL: Sistema de gerenciamento de banco de dados relacional de código aberto.
 ### Arquitetura:
-  + One Page Application (SPA): O sistema é desenvolvido como uma página única, onde as funcionalidades são carregadas e 
+  + Single Page Application (SPA): O sistema é desenvolvido como uma página única, onde as funcionalidades são carregadas e 
 atualizadas dinamicamente através de requisições AJAX, proporcionando uma experiência de navegação contínua e fluida 
 para o usuário.
 
