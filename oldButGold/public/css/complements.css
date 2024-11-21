@@ -1,0 +1,46 @@
+:root {
+    --footer-bc-1000: rgba(0, 0, 0, 0.2);
+
+}
+
+.bc-1000 {
+    background-color: var(--footer-bc-1000);
+}
+
+.required-text {
+    color: var(--bs-danger);
+    font-weight: bold;
+}
+
+.main {
+    min-height: 75vh;
+}
+
+
+.active {
+    border-bottom: rgba(255, 255, 255, 0.55) solid 1px;
+}
+
+.nav-link{
+    cursor: pointer;
+}
+/**
+CRIA UMA LISTA ORDENADA COM OS ELEMENTOS QUE TENHA A CLASSE 
+É SELECIONADO A DIV ONDE FICARÁ A LISTA 
+E DEPOIS OS ITENS DENTRO QUE VÃO RECEBER O NUMERO
+CREDITOS AO KEVIN POWELL
+https://www.youtube.com/watch?v=xoRbkm8XgfQ
+*/
+
+.counter-class {
+    counter-reset: numero;
+}
+
+.counter-item::before {
+    counter-increment: numero;
+    content: counter(numero) '. ';
+}
+
+form .nav-link{
+    cursor: pointer!important;
+}
